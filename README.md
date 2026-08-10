@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O **About Me / Portfólio** é uma aplicação web desenvolvida em estilo _Dark Mode_ que centraliza minhas informações de contato, biografia pessoal, histórico acadêmico, habilidades em tecnologias e projetos em desenvolvimento.
 
-- 🔗 [Acesse o projeto finalizado e online](https://wrdrocha.github.io/about-me/)
+- 🔗 [Acesse o projeto finalizado e online](https://wrdrocha.github.io/about_me/)
 
 ## 🔖 Layout
 
@@ -37,7 +37,7 @@ O desenvolvimento front-end (HTML, CSS e JavaScript) foi totalmente feito por mi
 
 ## 📝 Licença
 
-Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está sob a licença **MIT**.
 
 ---
 
