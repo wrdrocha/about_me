@@ -1,4 +1,4 @@
-<h1 align="center"> William Rocha | Portfólio Personalizado </h1>
+<h1 align="center"> William Rocha | Website </h1>
 
 <p align="center">
 Portfólio pessoal e profissional desenvolvido para apresentar minha trajetória, habilidades técnicas, formação e projetos na área de desenvolvimento de software.
@@ -19,11 +19,11 @@ Portfólio pessoal e profissional desenvolvido para apresentar minha trajetória
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- **HTML5** (Estruturação semântica)
-- **CSS3** (Estilização responsiva com suporte a CSS Variables e Flexbox/Grid)
-- **JavaScript** (Animações de Scroll Reveal e interatividade)
-- **Git & GitHub** (Controle de versão e hospedagem)
-- **Figma** (Inspiração e prototipagem do design)
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **Git & GitHub**
+- **Figma**
 
 ## 💻 Projeto
 
