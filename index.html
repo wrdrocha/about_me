@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>William Rocha</title>
+
+    <!-- Fonte Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link para o CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR SUPERIOR -->
+  <header class="navbar-header">
+    <div class="container navbar-container">
+      <nav class="navbar-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION (Adicionado id="home") -->
+  <section class="hero-section" id="home">
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-text">
+          <h1 class="hero-name"> WILLIAM ROCHA
+          </h1>
+          <p class="hero-description">
+           I'm 29-year-old, Systems Analysis and Development student, focused on Full Stack Development, Databases, and Artificial Intelligence.
+          </p>
+
+          <a href="#contact" class="btn-hire">Hire me</a>
+
+          <!-- Social Links -->
+          <div class="hero-socials">            
+            <a href="https://github.com/wrdrocha" target="_blank" title="GitHub"
+              ><ion-icon name="logo-github"></ion-icon
+            ></a>
+            <a
+              href="https://linkedin.com/in/wrdrocha"
+              target="_blank"
+              title="LinkedIn"
+              ><ion-icon name="logo-linkedin"></ion-icon
+            ></a>
+            <a
+              href="https://instagram.com/apenasdiaz"
+              target="_blank"
+              title="Instagram"
+              ><ion-icon name="logo-instagram"></ion-icon
+            ></a>
+          </div>
+        </div>
+
+        <!-- Foto de Perfil com brilho/glow -->
+        <div class="hero-avatar-wrapper">
+          <img
+            src="./assets/profile.jpg"
+            alt="William Rocha"
+            class="hero-avatar"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <main class="container main-content">
+      <!-- ABOUT ME -->
+      <section class="card-box" id="about">
+  <h2 class="section-title">About Me</h2>
+  <div class="about-text-group">
+    <p>
+      Born and raised in Belém do Pará, my curiosity for technology was inherited from my father, an early tech enthusiast who inspired me from a young age. After spending years building a dynamic career in Gastronomy, I decided to redirect my path back to my true passion: Software Development. The fast-paced kitchen environment taught me intense focus, agility, and adaptability under pressure — skills that I now bring directly into my code.
+    </p>
+    <p>
+      Currently based in Curitiba/PR (and open to relocation), I am pursuing a degree in Analysis and Systems Development (ADS) alongside practical certifications in Web Development and Database Administration from IFRS. I thrive on the visual creativity of Front-End development with CSS and JavaScript, watching ideas turn into vibrant, functional interfaces, while continuously building a solid foundation in Back-End to become a well-rounded Full Stack Developer.
+    </p>
+    <p>
+      I am deeply curious and relentlessly persistent — when facing a complex problem or project, I enter a state of total hyperfocus until a solution is found. Off-screen, you’ll find me sharpening my logical thinking with board games, hitting the pavement for road running, or training Jiu-Jitsu.
+    </p>
+  </div>
+</section>
+
+      <!-- EDUCATION & CERTIFICATIONS GRID -->
+      <div class="grid-two-columns">
+        <!-- Educação -->
+        <section class="card-box">
+          <h2 class="section-title">Education</h2>
+          <ul class="custom-list">
+           <li>Systems Analysis and Development — (In Progress)</li>
+          </ul>
+        </section>
+
+        <!-- Certificações e Cursos -->
+        <section class="card-box">
+          <h2 class="section-title">Certifications & Courses</h2>
+          <ul class="custom-list">
+            <li>Web Developer — IFRS</li>
+            <li>Database Administrator — IFRS (In Progress)</li>
+          </ul>
+        </section>
+      </div>
+
+      <!-- SKILLS & TECHNOLOGIES -->
+      <section class="card-box" id="skills">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <ion-icon
+              name="logo-html5"
+              class="skill-icon html-color"
+            ></ion-icon>
+            <span>HTML</span>
+          </div>
+          <div class="skill-card">
+            <ion-icon name="logo-css3" class="skill-icon css-color"></ion-icon>
+            <span>CSS</span>
+          </div>
+          <div class="skill-card">
+            <ion-icon
+              name="logo-javascript"
+              class="skill-icon js-color"
+            ></ion-icon>
+            <span>JavaScript</span>
+          </div>
+            <div class="skill-card">
+            <ion-icon
+              name="server-outline"
+              class="skill-icon db-color"
+            ></ion-icon>
+            <span>Database</span>
+          </div>
+          <div class="skill-card">
+            <ion-icon
+              name="logo-github"
+              class="skill-icon github-color"
+            ></ion-icon>
+            <span>GitHub</span>
+          </div>
+          <div class="skill-card">
+            <img src="./assets/git-logo.png"
+            alt="Git Logo"
+            class="skill-icon-img"
+            />
+            <span>Git</span>
+          </div>
+          <div class="skill-card">
+            <img src="./assets/figma-logo.png"
+            alt="Figma Logo"
+            class="skill-icon-img"
+            />
+            <span>Figma</span>
+          </div>
+          <div class="skill-card">
+            <img src="./assets/ps-logo.png"
+            alt="Adobe Photoshop Logo"
+            class="skill-icon-img"
+            />
+            <span>Photoshop</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="projects-section" id="projects">
+        <h2 class="projects-main-title">My Projects</h2>
+        <div class="card-box">
+         <h2 class="projects-title">Development Projects</h2>
+
+<div class="projects-grid">
+
+  <!-- Projeto 1 -->  
+   <a href="https://wrdrocha.github.io/wr-links/"
+   target="_blank" rel="noopener noreferrer"
+   class="project-card">
+   <div class="project-img-container">
+    <img src="./assets/cover-links.png"
+    alt="WR Links" class="project-img" />
+    </div>
+    <p class="project-name">WR Links - Link Aggregator</p>
+  </a>
+
+  <!-- Projeto 2 -->
+   <a href="https://wrdrocha.github.io/about_me/"
+   target="_blank" rel="noopener noreferrer"
+   class="project-card">
+    <div class="project-img-container">
+      <img src="./assets/cover-about.png"
+      alt="About Me" class="project-img" />
+    </div>
+    <p class="project-name">About Me - Personal Website</p>
+  </a>
+</div>
+</section>
+
+      <!-- CONTACT ME -->
+      <section class="contact-section" id="contact">
+        <h2 class="projects-main-title">Contact Me</h2>
+        <div class="contact-bar">
+          <a href="mailto:william.rocha99@gmail.com" class="email-btn">
+            <ion-icon name="mail-outline"></ion-icon>
+            <span>william.rocha99@gmail.com</span>
+          </a>
+          <div class="contact-socials">
+            <a href="https://linkedin.com/in/wrdrocha" target="_blank"
+              ><ion-icon name="logo-linkedin"></ion-icon
+            ></a>
+            <a href="https://github.com/wrdrocha" target="_blank"
+              ><ion-icon name="logo-github"></ion-icon
+            ></a>
+             <a href="https://instagram.com/apenasdiaz" target="_blank"
+              ><ion-icon name="logo-instagram"></ion-icon
+            ></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-container">
+        <p>2026 © All Rights Reserved</p>
+        <p>Developed by William Rocha</p>
+      </div>
+    </footer>
+
+    <!-- Ionicons Script -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
